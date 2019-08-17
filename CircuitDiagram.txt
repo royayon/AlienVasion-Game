@@ -1,0 +1,29 @@
+AT === ATmega32
+LCD === LCD Display
+SW === 4 Switch
+DOT === DotMatrix
+
+
+** USB ASB has port names under the PCB to connect with ATmega32
+** LCD Display interfacing links:
+	1. http://www.electronicwings.com/avr-atmega/lcd16x2-interfacing-with-atmega16-32
+	2. http://www.electronicwings.com/avr-atmega/interfacing-lcd-16x2-in-4-bit-mode-with-atmega-16-32-
+	3. https://www.electronicwings.com/sensors-modules/lcd-16x2-display-module
+
+LCD (D0-D7) to ATmega32 PORT-B (PD 0~7) And PORT-C (PC 0~2)
+
+DOT Columns to ATmega32 PORT-D (PD 0~7)
+DOT Rows to ATmega32 PORT-A (PA 0~7)
+
+ 
+SW L to ATmega32 PORT-C (PC 6)
+SW R to ATmega32 PORT-C (PC 7)
+SW F to ATmega32 PORT-C (PC 4)
+SW B to ATmega32 PORT-C (PC 5)
+
+
+Fire SW to PORT-C (PC 3)
+
+
+
+
