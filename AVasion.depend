@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1554636067 source:/home/ayon/Micro/AVasion/fuse.c
+	<avr/io.h>
+
+1554648191 source:/home/ayon/Micro/AVasion/main.c
+	<avr/io.h>
+	<util/delay.h>
+
